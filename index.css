@@ -1,0 +1,295 @@
+body {
+    min-height: 100vh;
+    font-family: "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
+/* ----- End Main Body Section ----- */
+
+header {
+    height: 60px;
+    background-color: #24292e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 36px;
+    margin: 13px;
+}
+
+input {
+    width: 300px;
+    height: 27px;
+    font-size: 14px;
+    background-color:#575b5e;
+    color: #d1d5da;
+    border: none;
+    border-radius: 3px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.buttons {
+    width: 105px;
+    margin: 15px;
+}
+
+/* ----- End Header Section ----- */
+
+.bodyboxes {
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+}
+
+/* --------------------------------------- */
+
+.left-area {
+    width: 25.5%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-pic {
+    height: 321px;
+    width: 283px;
+    margin: 23px 14px;
+}
+
+/* --------------------------------------- */
+
+.profile-pic-area {
+    height: 150px;
+    width: 283px;
+    margin: -7px 14px;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0px 2px;
+}
+
+.user-name {
+    color: grey;
+    font-size: 20px;
+    margin: 2px;
+    font-weight: 300;
+}
+
+.edit {
+    margin: 27px 0px;
+    width: 283px;
+    height: 35px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #f4f7f9;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.join-date {
+    font-size: 14px;
+    font-weight: 300;
+    margin: -3px 0px;
+}
+
+/* ----- End Profile Picture Section ----- */
+
+.right-area {
+    width: 74.5%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --------------------------------------- */
+
+.subheader {
+    /* background-color: #0366d6; */
+    height: 10vh;
+    width: 100%;
+    border-style: solid;
+    box-shadow: 10px 25px 2px -25px grey,
+                -10px 25px 2px -25px grey;
+    /* border-bottom: 1px solid grey; */
+}
+
+.subheader ul {
+    display: flex;
+    justify-items: center;
+}
+
+.subheader ul li {
+    margin: 40px 20px;
+}
+
+.subheader a {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.subheader ul > li {
+    font-weight: 600;
+}
+
+.pop-pins {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #24292e;
+}
+
+.pop {
+    margin: 3px 16px;
+    font-weight: 400;
+    justify-self: flex-start;
+}
+
+.pins {
+    margin: 3px 15px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #586069;
+}
+
+/* --------------------------------------- */
+
+.repo-bluetext {
+    color: #0366d6;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px 18px;
+}
+
+.repo-subtext {
+    color: #586069;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 10px 18px;
+}
+
+.html {
+    margin: 55px 18px;
+    color: #586069;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.language-type {
+    margin: 20px 18px;
+    color: #586069;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* --------------------------------------- */
+
+.line1{
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.repo1 {
+    height: 123px;
+    width: 433px;
+    margin: 8px 16px;
+    align-self: flex-start;
+    border-radius: 3px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.repo2 {
+    height: 123px;
+    width: 433px;
+    margin: 8px 16px;
+    align-self: flex-end;
+    border-radius: 3px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+/* --------------------------------------- */
+
+.line2 {
+    height: 19vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.repo3 {
+    height: 143px;
+    width: 433px;
+    margin: 6px 16px;
+    align-self: flex-start;
+    border-radius: 3px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.repo4 {
+    height: 143px;
+    width: 433px;
+    margin: 6px 16px;
+    align-self: flex-end;
+    border-radius: 3px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+/* --------------------------------------- */
+
+.line3 {
+    height: 19vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.repo5 {
+    height: 143px;
+    width: 433px;
+    margin: 6px 16px;
+    align-self: flex-start;
+    border-radius: 3px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.repo6 {
+    height: 143px;
+    width: 433px;
+    margin: 6px 16px;
+    align-self: flex-end;
+    border-radius: 3px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+/* --------------------------------------- */
